@@ -1,0 +1,5 @@
+LinuxOperating systems such as UNIX only.	ระบบปฏิบัติการ Linux เช่น UNIX เท่านั้น
+We don't allhave to enter the darknessto fight against IT.	Nous n'avons pas tous à entrer dans les ténèbres pour lutter contre cela.
+Corgi.ai is an open-source app framework for Corgilover.	Corgi.ai es un marco de aplicación de código abierto para los amantes de Corgi.
+Because myEARLGREYjelly was too cold, I burnedit in theoven.	Weil mein EARL GREY Gelee zu kalt war, habe ich es im Ofen verbrannt.
+RemoveUsers to delete theselected user ID and profilefrom the list.  Eliminar usuarios para eliminar la ID de usuario y el perfil seleccionados de la lista.
