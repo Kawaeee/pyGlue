@@ -4,6 +4,7 @@ import sys
 import wordsegment as ws
 from sacremoses import MosesTokenizer, MosesDetokenizer
 
+sys.setrecursionlimit(10**6)
 punctuation = "[!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~]"
 
 
