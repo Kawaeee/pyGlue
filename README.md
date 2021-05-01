@@ -1,13 +1,13 @@
 # pyGlue
 
-pyGlue is a Python library for dealing with a glued word. It supports both monolingual and bilingual corpus word ungluing.
+``pyGlue`` is a Python library for dealing with a glued word. It supports both monolingual and bilingual corpus word ungluing.
 
 ## Installation
 
 - Clone this repository
 
 ```git
-git clone https://github.com/Kawaeee/pyglue.git
+git clone https://github.com/Kawaeee/pyGlue.git
 ```
 
 - Install required packages
@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ## Usage & Example
 
-pyGlue reads input from stdin and writes output to stdout. So, You can adapt pyGlue to any variation as you want.
+``pyGlue`` reads input from stdin and writes output to stdout. So, You can adapt ``pyGlue`` to any variation as you want.
 
 ```bash
 # Input
