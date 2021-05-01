@@ -2,4 +2,6 @@ LinuxOperating systems such as UNIX only.	ระบบปฏิบัติก�
 We don't allhave to enter the darknessto fight against IT.	Nous n'avons pas tous à entrer dans les ténèbres pour lutter contre cela.
 Corgi.ai is an open-source app framework for Corgilover.	Corgi.ai es un marco de aplicación de código abierto para los amantes de Corgi.
 Because myEARLGREYjelly was too cold, I burnedit in theoven.	Weil mein EARL GREY Gelee zu kalt war, habe ich es im Ofen verbrannt.
-RemoveUsers to delete theselected user ID and profilefrom the list.  Eliminar usuarios para eliminar la ID de usuario y el perfil seleccionados de la lista.
+RemoveUsers to delete theselected user ID and profilefrom the list.	Eliminar usuarios para eliminar la ID de usuario y el perfil seleccionados de la lista.
+TensorFlow is an end-to-end open-source platform for machinelearning.	TensorFlow是用于机器学习的端到端开源平台。
+Marian is an efficient, free NeuralMachineTranslationframework written in pure C++ with minimal dependencies.	Marian là một khung dịch thuật máy thần kinh miễn phí, hiệu quả được viết bằng C++ thuần túy với sự phụ thuộc tối thiểu.

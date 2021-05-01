@@ -14,7 +14,7 @@ def unglue(line):
     except:
         source_sentence = line
         target_sentence = []
-        
+
     tokenized_source = mt.tokenize(source_sentence)
     word_counter = 0
 
@@ -25,29 +25,30 @@ def unglue(line):
         if punctuation_matched:
             word_counter += 1
             continue
+
         # Out of vocabulary
         if word in ws.UNIGRAMS.keys():
             word_counter += 1
             continue
-        
+
         if word not in target_sentence or target_sentence == []:
             segmented_words = ws.segment(word)
             if len(segmented_words) >= 2:
-                segmented_words = restore_case(source_sentence, segmented_words)
+                segmented_words = restore_case(word, segmented_words)
                 tokenized_source[word_counter] = " ".join(segmented_words)
             else:
                 tokenized_source[word_counter] = word
 
         word_counter += 1
 
-        detokenized_source = md.detokenize(tokenized_source)
+    detokenized_source = md.detokenize(tokenized_source)
 
     if target_sentence != []:
         result = detokenized_source + "\t" + target_sentence
     else:
         result = detokenized_source
 
-    print(result.strip("\n"))
+    print(re.sub(r" {2,}"," ",result.strip("\n")))
 
 
 def restore_case(source, segmented_source):
@@ -59,8 +60,9 @@ def restore_case(source, segmented_source):
             segmented_source[index] = matched.group(1)
         index += 1
 
-        if len(segmented_source) == 0:
-            return source
+    if len(segmented_source) == 0:
+        return source
+
     return segmented_source
 
 
