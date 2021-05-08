@@ -12,7 +12,7 @@ def unglue(line):
     """Unglues word function in both monolingual and bilingual corpus"""
     try:
         source_sentence, target_sentence = line.rstrip().split("\t")
-    except:
+    except Exception as e:
         source_sentence = line
         target_sentence = []
 
